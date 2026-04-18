@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>栏檐千载：中国干栏式建筑五维信息可视化设计</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Microsoft YaHei", "思源宋体", sans-serif; background-color: #F8F5F0; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; margin-bottom: 40px; padding: 30px 0; border-bottom: 2px solid #5A7256; }
+        .header h1 { color: #5A7256; font-size: 2.5em; margin-bottom: 15px; }
+        .header p { font-size: 1.1em; line-height: 1.8; max-width: 800px; margin: 0 auto; color: #666; }
+        .gallery { display: flex; flex-direction: column; gap: 50px; }
+        .slide { width: 100%; background: white; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; }
+        .slide img { width: 100%; height: auto; display: block; border-radius: 4px; }
+        .slide-title { text-align: center; margin-top: 20px; font-size: 1.5em; color: #5A7256; font-weight: bold; }
+        .footer { text-align: center; margin-top: 60px; padding: 30px 0; border-top: 2px solid #5A7256; color: #666; font-size: 0.9em; }
+        /* 适配手机端 */
+        @media (max-width: 768px) { .header h1 { font-size: 1.8em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>栏檐千载：中国干栏式建筑五维信息可视化设计</h1>
+            <!-- 下面这段简介，替换成你自己的参赛作品简介（100字以内） -->
+            <p>本作品为干栏式建筑主题信息图形设计，分五大篇章，以可视化叙事全维度解构其技艺、文化、工艺、史料与科学内核，活化传承中国传统营造智慧。</p>
+        </div>
+
+        <div class="gallery">
+            <!-- 篇章1：记载篇 -->
+            <div class="slide">
+                <img src="作品_01.jpg" alt="干栏式建筑——自然科学篇">
+                <div class="slide-title">篇章1：源筑之理</div>
+            </div>
+            <!-- 篇章2：自然科学篇 -->
+            <div class="slide">
+                <img src="作品_02.jpg" alt="干栏式建筑——营造技艺篇">
+                <div class="slide-title">篇章2：营构之法</div>
+            </div>
+            <!-- 篇章3：建造工艺篇 -->
+            <div class="slide">
+                <img src="作品_03.jpg" alt="干栏式建筑——建造工艺篇">
+                <div class="slide-title">篇章3：匠筑之序</div>
+            </div>
+            <!-- 篇章4：营造技艺篇 -->
+            <div class="slide">
+                <img src="作品_04.jpg" alt="干栏式建筑——文化篇">
+                <div class="slide-title">篇章4：俗蕴檐间</div>
+            </div>
+            <!-- 篇章5：文化篇 -->
+            <div class="slide">
+                <img src="作品_05.jpg" alt="干栏式建筑——记载篇">
+                <div class="slide-title">篇章5：文韵千载</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>本作品为中国大学生计算机设计大赛参赛作品，内容与提交的参赛文件完全一致。</p>
+        </div>
+    </div>
+</body>
+</html>
